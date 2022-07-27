@@ -1,32 +1,39 @@
 import React from "react";
 import "./VideoRow.css";
+import { Avatar } from "@material-ui/core";
 
 function VideoRow({
   views,
-  subs,
   description,
   timestamp,
   channel,
+  channellink,
   title,
   image,
+  link
 }) {
   return (
     <div className="videoRow">
-      <img src={image} alt="" />
+      <a href={link} alt="">
+        <img src={image} alt="" />
+      </a>
       <div className="videoRow__text">
-        <h3> {title} </h3>{" "}
+        <a className="videoRow_title" href={link}>
+          {title}
+        </a>
         <p className="videoRow__headline">
-          {" "}
-          {channel}•{" "}
-          <span className="videoRow__subs">
-            <span className="videoRow__subsNumber"> {subs} </span>
-            {subs} Subscribers{" "}
-          </span>{" "}
           {views}
-          views• {timestamp}{" "}
-        </p>{" "}
-        <p className="videoRow__description"> {description} </p>{" "}
-      </div>{" "}
+          views • {timestamp}
+        </p>
+        <div className="videosRow_Channel">
+          <Avatar src={image} className="videosRow_ChannelAvatar" />
+          <a href={channellink}>{channel} ♪</a>
+        </div>
+
+        <p className="videoRow__description">
+          <a href={link}>{description} </a>{" "}
+        </p>
+      </div>
     </div>
   );
 }

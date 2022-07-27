@@ -4,7 +4,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import RecommendedVideos from "./RecommendedVideos";
 import SearchPage from "./SearchPage";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -12,27 +12,21 @@ function App() {
     <div className="app">
       <Router>
         <Header />
-        <Routes>
-          <Route
-            path="/search/:searchTerm"
-            element={
-              <div className="app__page">
-                <Sidebar />
-                <SearchPage />
-              </div>
-            }
-          />
-          <Route
-            path="/"
-            element={
-              <div className="app__page">
-                <Sidebar />
-                <RecommendedVideos />
-              </div>
-            }
-          />
-        </Routes>
-      </Router>
+        <Switch>
+          <Route path="/search">
+            <div className="app__page">
+              <Sidebar />
+              <SearchPage />
+            </div>
+          </Route>
+          <Route path="/">
+            <div className="app__page">
+              <Sidebar />
+              <RecommendedVideos />
+            </div>{" "}
+          </Route>{" "}
+        </Switch>{" "}
+      </Router>{" "}
     </div>
   );
 }

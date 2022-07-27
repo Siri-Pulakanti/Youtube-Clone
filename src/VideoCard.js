@@ -1,19 +1,28 @@
-import Avatar from "@mui/material/Avatar";
+import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./VideoCard.css";
 
-function VideoCard({ image, title, channel, views, timestamp, channelImage }) {
+function VideoCard({
+  image,
+  link,
+  title,
+  channel,
+  views,
+  timestamp,
+  channelImage
+}) {
   return (
     <div className="videoCard">
-      <img className="videoCard__thumbnail" src={image} alt="" />
+      <a className="videoCard__thumbnail" href={link} alt="">
+        <img className="videoCard__thumbnail" src={image} alt="" />
+      </a>
       <div className="videoCard__info">
-        <Avatar
-          className="videoCard__avatar"
-          alt={channel}
-          src={channelImage}
-        />{" "}
+        <Avatar src={image} className="videoCard__avatar" alt={channel} />
         <div className="videoCard__text">
-          <h4> {title} </h4> <p> {channel} </p>{" "}
+          <a className="videoCard_title" href={link}>
+            {title}
+          </a>
+          <p> {channel} </p>{" "}
           <p>
             {" "}
             {views}• {timestamp}{" "}

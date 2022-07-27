@@ -1,36 +1,72 @@
 .videoRow {
-    display: flex;
-    margin-bottom: 30px;
-    max-width: 700px;
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
 }
 
-.videoRow>img {
-    object-fit: contain;
-    width: 246px;
-    height: 138px;
+.videoRow > a img {
+  object-fit: contain;
+  width: 266px;
+  height: 158px;
+  border: 1px solid white;
 }
 
 .videoRow__text {
-    margin-left: 14px;
+  margin-left: 14px;
+  font-weight: 500;
+  margin-top: 3px;
+  color: #030303;
+}
+
+.videoRow__text > a {
+  text-decoration: none;
+  color: #030303;
+  font-weight: 600;
 }
 
 .videoRow__description {
-    margin-top: 20px;
-    font-size: 12px;
-    color: #606060;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #606060;
+}
+
+.videoRow__description > a {
+  text-decoration: none;
+  color: #70757a;
+  font-weight: 400;
 }
 
 .videoRow__headline {
-    font-size: 12px;
-    color: #606060;
+  font-size: 12px;
+  color: #606060;
 }
 
 .videoRow__subsNumber {
-    font-weight: bolder;
-    color: rgb(84, 157, 211);
+  font-weight: bolder;
+  color: rgb(84, 157, 211);
 }
 
 .videoRow__subs {
-    padding-right: 2px;
-    background-color: lightgrey;
+  padding-right: 2px;
+  background-color: lightgrey;
+}
+
+.videosRow_Channel {
+  display: flex;
+  color: gray;
+  align-items: center;
+  margin-top: 10px !important;
+}
+
+.videosRow_Channel > a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: rgb(54, 53, 53);
+  font-weight: 400;
+}
+
+.videosRow_ChannelAvatar {
+  object-fit: contain;
+  width: 25px !important;
+  height: 25px !important;
 }

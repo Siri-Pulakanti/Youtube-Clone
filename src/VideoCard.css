@@ -1,34 +1,51 @@
 .videoCard {
-    margin-bottom: 40px;
-    width: 270px;
+  margin-bottom: 40px;
+  width: 270px;
 }
 
-.videoCard__thumbnail {
-    height: 140px;
-    width: 250px;
+.videoCard > a img {
+  object-fit: contain;
+  width: 266px;
+  height: 158px;
+  border: 1px solid white;
 }
+/* .videoCard__thumbnail {
+  height: 140px;
+  width: 250px;
+} */
 
 .videoCard__info {
-    display: flex;
-    margin-top: 10px;
-    padding-right: 30px;
+  display: flex;
+  margin-top: 10px;
+  padding-right: 30px;
 }
 
 .videoCard__text {
-    margin-left: 15px;
+  margin-left: 15px;
+}
+.videoCard__text > a {
+  text-decoration: none;
+  color: #030303;
+  font-weight: 700;
 }
 
-.videoCard__text>h4 {
-    font-size: 14px;
-    margin-bottom: 5px;
+.videoCard__text > h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
-.videoCard__text>p {
-    font-size: 14px;
-    color: gray;
+.videoCard__text > p {
+  font-size: 14px;
+  color: gray;
 }
 
 .videoCard__avatar {
-    height: 30px !important;
-    width: 30px !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+.videoCard_title {
+  margin-left: 14px;
+  font-weight: 800;
+  margin-top: 3px;
+  color: #030303;
 }

@@ -1,35 +1,72 @@
 import React from "react";
 import "./SearchPage.css";
+import Response from "./response";
 import VideoRow from "./VideoRow";
 import ChannelRow from "./ChannelRow";
-import TuneOutlinedIcon from "@mui/icons-material/TuneOutlined";
+import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
+import useYoutubeSearch from "./useYoutubeSearch";
+import { useStateValue } from "./StateProvider";
 
 function SearchPage() {
+  const [{ term }, dispatch] = useStateValue();
+
+  // LIVE API CALL
+  const { data } = useYoutubeSearch(term);
+
+  // Dummy API CALL
+  //const data = Response;
+
+  //console.log(data);
+
   return (
     <div className="searchPage">
+      {/* {JSON.stringify(data)} */}
       <div className="searchPage__filter">
         <TuneOutlinedIcon />
         <h2> FILTER </h2>{" "}
       </div>{" "}
       <hr />
-      <ChannelRow
-        image="https://vignette.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest?cb=20180630112142"
-        channel="qwert"
-        subs="100"
-        noOfVideos="25"
-        description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
-        verified
-      />
+      {/* {term} */}
+      {term && (
+        <div>
+          {data?.items.map((item) => (
+            <div>
+              {item.pagemap?.cse_image?.length > 0 && (
+                <VideoRow
+                  link={item.link}
+                  title={item.title}
+                  views={
+                    item.pagemap?.videoobject?.length > 0 &&
+                    item.pagemap?.videoobject[0]?.interactioncount
+                  }
+                  subs="852"
+                  description={
+                    item.pagemap?.videoobject?.length > 0 &&
+                    item.pagemap?.videoobject[0]?.description
+                  }
+                  timestamp={
+                    item.pagemap?.videoobject?.length > 0 &&
+                    item.pagemap?.videoobject[0]?.datepublished
+                  }
+                  channel={
+                    item.pagemap?.person?.length > 0 &&
+                    item.pagemap?.person[0]?.name
+                  }
+                  channellink={
+                    item.pagemap?.person?.length > 0 &&
+                    item.pagemap?.person[0]?.url
+                  }
+                  image={
+                    item.pagemap?.imageobject?.length > 0 &&
+                    item.pagemap?.imageobject[0]?.url
+                  }
+                />
+              )}
+            </div>
+          ))}
+        </div>
+      )}
       <hr />
-      <VideoRow
-        views="1000"
-        subs="852"
-        description="ipsum' will uncover many web sites still in their infancy. Various vers"
-        timestamp="22.50"
-        channel="qwertycreations"
-        title="bqwertyigbang creation"
-        image="https://i.ytimg.com/vi/9r8DpnNFrsc/maxresdefault.jpg"
-      />
     </div>
   );
 }
