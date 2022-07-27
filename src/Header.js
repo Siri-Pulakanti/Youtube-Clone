@@ -27,11 +27,7 @@ function Header() {
         <VideoCallIcon className="header__icon" />
         <AppsIcon className="header__icon" />
         <NotificationsIcon className="header__icon" />
-        <Avatar
-          className="header_avatar"
-          alt="Zuko"
-          src="https://vignette.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest?cb=20180630112142"
-        />
+        <Avatar className="header_avatar" alt="Zuko" src="Siri.jpg" />
       </div>{" "}
     </div>
   );

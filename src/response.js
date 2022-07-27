@@ -60,8 +60,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjw4KiSJ9BURSKjvLc4grQ89CvyjLzXPdi5illmBSQvQ7S4no1LO6HlNN3",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjw4KiSJ9BURSKjvLc4grQ89CvyjLzXPdi5illmBSQvQ7S4no1LO6HlNN3",
             width: "300",
             height: "168",
           },
@@ -124,8 +123,7 @@ export default {
             url: "https://www.youtube.com/watch?v=_pLO4jFDeIc",
             duration: "PT63M57S",
             unlisted: "False",
-            name:
-              "TOP 40 Songs of 2020 2021 (Best Hit Music Playlist) on Spotify",
+            name: "TOP 40 Songs of 2020 2021 (Best Hit Music Playlist) on Spotify",
             paid: "False",
             width: "1280",
             regionsallowed:
@@ -151,8 +149,7 @@ export default {
       title: "The Best Music Of 2020: NPR Staff Picks : NPR",
       htmlTitle:
         "The \u003cb\u003eBest Music\u003c/b\u003e Of 2020: NPR Staff Picks : NPR",
-      link:
-        "https://www.npr.org/2020/12/04/942133359/the-best-music-of-2020-npr-staff-picks",
+      link: "https://www.npr.org/2020/12/04/942133359/the-best-music-of-2020-npr-staff-picks",
       displayLink: "www.npr.org",
       snippet:
         "Dec 4, 2020 ... The staff of NPR Music sifts through the best of 2020 to present personal lists of \ntop 10 songs and albums.",
@@ -165,8 +162,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0jzrAqdwXD3L56Jn_gtT2O2neb6hm37vuK_IZn76HsC5VYKx8TfKqifV7",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT0jzrAqdwXD3L56Jn_gtT2O2neb6hm37vuK_IZn76HsC5VYKx8TfKqifV7",
             width: "300",
             height: "168",
           },
@@ -204,8 +200,7 @@ export default {
         ],
         cse_image: [
           {
-            src:
-              "https://media.npr.org/assets/img/2020/12/03/adrianne-lenker-by-genesis-baez_wide-c26b90c4483c3bb5ce03ca92b88ea72e8d2bab85.jpg?s=1400",
+            src: "https://media.npr.org/assets/img/2020/12/03/adrianne-lenker-by-genesis-baez_wide-c26b90c4483c3bb5ce03ca92b88ea72e8d2bab85.jpg?s=1400",
           },
         ],
       },
@@ -226,8 +221,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_BXbbWXqLpFPpGzUea1cve7ujsmbcLhX5QpbuDEai9WbnlLH9hIwx_i6Z",
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS_BXbbWXqLpFPpGzUea1cve7ujsmbcLhX5QpbuDEai9WbnlLH9hIwx_i6Z",
             width: "300",
             height: "168",
           },
@@ -314,8 +308,7 @@ export default {
       title: "\u200eSpotify: Discover new music on the App Store",
       htmlTitle:
         "\u200eSpotify: Discover new \u003cb\u003emusic\u003c/b\u003e on the App Store",
-      link:
-        "https://apps.apple.com/us/app/spotify-discover-new-music/id324684580",
+      link: "https://apps.apple.com/us/app/spotify-discover-new-music/id324684580",
       displayLink: "apps.apple.com",
       snippet:
         "Apr 21, 2021 ... Spotify is the best way to listen to music and podcasts on mobile or tablet. Search \nfor any track, artist or album and listen for free. Make and ...",
@@ -329,8 +322,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo16Zb3HPjmnfuYKfYiX8hQuqei09b67WoQTjJK3d8WA7jvXvfB8jVdMI",
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo16Zb3HPjmnfuYKfYiX8hQuqei09b67WoQTjJK3d8WA7jvXvfB8jVdMI",
             width: "310",
             height: "163",
           },
@@ -374,8 +366,7 @@ export default {
         ],
         cse_image: [
           {
-            src:
-              "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/80/bf/21/80bf216e-de9a-d318-e33a-af6f093878d8/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+            src: "https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/80/bf/21/80bf216e-de9a-d318-e33a-af6f093878d8/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
           },
         ],
       },
@@ -397,8 +388,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQ4x5N8AvTjQgO6kTtmVW7mHB2__WndbA33jBSN6z06UWlzmnpv99F3bI",
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQ4x5N8AvTjQgO6kTtmVW7mHB2__WndbA33jBSN6z06UWlzmnpv99F3bI",
             width: "300",
             height: "168",
           },
@@ -465,8 +455,7 @@ export default {
             url: "https://www.youtube.com/watch?v=W9iUh23Xrsg",
             duration: "PT78M43S",
             unlisted: "False",
-            name:
-              "New Year Music Mix 2021 ♫ Best Music 2020 Party Mix ♫ Remixes of Popular Songs",
+            name: "New Year Music Mix 2021 ♫ Best Music 2020 Party Mix ♫ Remixes of Popular Songs",
             paid: "False",
             width: "1280",
             regionsallowed:
@@ -504,8 +493,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAx3y-rgVrZNSfrP-FKk8kWKrEhMvl-Vb2P9RbGBkOQhLQ25rfnrmBjmQ",
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAx3y-rgVrZNSfrP-FKk8kWKrEhMvl-Vb2P9RbGBkOQhLQ25rfnrmBjmQ",
             width: "310",
             height: "163",
           },
@@ -548,8 +536,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSshGl66VR-baEU9UhmVoEObCpNgxMWRZ1nMw9lV6nWsGflvfzEhq19Z_8",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSshGl66VR-baEU9UhmVoEObCpNgxMWRZ1nMw9lV6nWsGflvfzEhq19Z_8",
             width: "300",
             height: "168",
           },
@@ -560,8 +547,7 @@ export default {
             embedUrl: "https://www.youtube.com/embed/GC5E8ie2pdM",
             itemtype: "http://schema.org/VideoObject",
             uploadDate: "2009-03-13",
-            name:
-              "Tina Turner - The Best (Official Music Video) [HD REMASTERED]",
+            name: "Tina Turner - The Best (Official Music Video) [HD REMASTERED]",
             genre: "Music",
             description:
               "Official video of Tina Turner performing The Best from the album Foreign Affair.\n\nFollow Tina Turner online:\nFacebook: https://www.facebook.com/TinaTurner/\nInstagram: https://www.instagram.com/tinaturner/...\nTwitter: https://twitter.com/LoveTinaTurner\n\n#TinaTurner #TheBest",
@@ -658,8 +644,7 @@ export default {
             url: "https://www.youtube.com/watch?v=GC5E8ie2pdM",
             duration: "PT4M10S",
             unlisted: "False",
-            name:
-              "Tina Turner - The Best (Official Music Video) [HD REMASTERED]",
+            name: "Tina Turner - The Best (Official Music Video) [HD REMASTERED]",
             paid: "False",
             width: "1280",
             regionsallowed:
@@ -698,8 +683,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSsNabFV96j3WqYCryO6xLqAfwDEv7DHY7khbTX7Xf94H3_dRViAycRK5-d",
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSsNabFV96j3WqYCryO6xLqAfwDEv7DHY7khbTX7Xf94H3_dRViAycRK5-d",
             width: "225",
             height: "225",
           },
@@ -721,8 +705,7 @@ export default {
         ],
         cse_image: [
           {
-            src:
-              "https://media.pitchfork.com/photos/60802b50350430677933719e/1:1/w_320/Arooj-Aftab-Vulture-Prince.jpeg",
+            src: "https://media.pitchfork.com/photos/60802b50350430677933719e/1:1/w_320/Arooj-Aftab-Vulture-Prince.jpeg",
           },
         ],
       },
@@ -743,8 +726,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxAwjnTXMzZD6U8TmgYkkF1zhTkD_NGr3LSPUyke4O2PhuD73cn-AlQ3Wq",
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxAwjnTXMzZD6U8TmgYkkF1zhTkD_NGr3LSPUyke4O2PhuD73cn-AlQ3Wq",
             width: "300",
             height: "168",
           },
@@ -818,8 +800,7 @@ export default {
             url: "https://www.youtube.com/watch?v=m8F8v2t5VcQ",
             duration: "PT110M12S",
             unlisted: "False",
-            name:
-              "Best Music 2021♫ Remixes of Popular Songs ♫ EDM Gaming Music, Bass Boosted, Car Music Mix",
+            name: "Best Music 2021♫ Remixes of Popular Songs ♫ EDM Gaming Music, Bass Boosted, Car Music Mix",
             paid: "False",
             width: "1280",
             regionsallowed:
@@ -845,8 +826,7 @@ export default {
       title: "The Best Music of 2020 | The New Yorker",
       htmlTitle:
         "The \u003cb\u003eBest Music\u003c/b\u003e of 2020 | The New Yorker",
-      link:
-        "https://www.newyorker.com/culture/2020-in-review/the-best-music-of-2020",
+      link: "https://www.newyorker.com/culture/2020-in-review/the-best-music-of-2020",
       displayLink: "www.newyorker.com",
       snippet:
         "Nov 27, 2020 ... The Best Music of 2020 · 10. Phoebe Bridgers, “Punisher” · 9. Freddie Gibbs and \nthe Alchemist, “Alfredo” · 8. Fleet Foxes, “Shore” · 7. Bob Dylan, “ ...",
@@ -860,8 +840,7 @@ export default {
       pagemap: {
         cse_thumbnail: [
           {
-            src:
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPj_aY1Fp29WVZJU7MsDNElKC_cphorYdJCDE6AxL0SlCfEX1DbCbVfan6",
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPj_aY1Fp29WVZJU7MsDNElKC_cphorYdJCDE6AxL0SlCfEX1DbCbVfan6",
             width: "300",
             height: "168",
           },
@@ -877,8 +856,7 @@ export default {
               "Amanda Petrusich shares her top ten favorite albums of 2020, including works by Fleet Foxes, Dua Lipa, Adrianne Lenker, Bob Dylan, and more.",
             dateModified: "2020-12-15T15:39:35-05:00",
             isAccessibleForFree: "http://schema.org/False",
-            url:
-              "https://www.newyorker.com/culture/2020-in-review/the-best-music-of-2020",
+            url: "https://www.newyorker.com/culture/2020-in-review/the-best-music-of-2020",
             datePublished: "2020-11-27T06:00:00-05:00",
             alternativeHeadline:
               "Amanda Petrusich shares her top ten favorite albums of 2020, including works by Fleet Foxes, Dua Lipa, Adrianne Lenker, Bob Dylan, and more.",
@@ -931,8 +909,7 @@ export default {
         ],
         cse_image: [
           {
-            src:
-              "https://media.newyorker.com/photos/5fb2a9619475b2442b5d2b06/16:9/w_1280,c_limit/2020-YearinReview-BestMusic.png",
+            src: "https://media.newyorker.com/photos/5fb2a9619475b2442b5d2b06/16:9/w_1280,c_limit/2020-YearinReview-BestMusic.png",
           },
         ],
       },
